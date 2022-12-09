@@ -49,7 +49,7 @@ public class CarriageVisualRotationMovementBehaviour implements MovementBehaviou
                 Vec3 diff = context.motion;
                 Vec3 relativeDiff = VecHelper.rotate(diff, cce.yaw, Direction.Axis.Y);
                 double signum = Math.signum(-relativeDiff.x);
-                distanceTo = diff.length() * signum/2.5f;
+                distanceTo = diff.length() * signum/3f;
             }
 
             double wheelRadius = speedForcible.getWheelRadius();
