@@ -259,6 +259,7 @@ public class WheelBlock extends RotatedPillarKineticBlock implements ITE<WheelTi
         return 1.75f;
     }
 
+    /*
     @Override
     public void appendHoverText(ItemStack stack, @Nullable BlockGetter blockGetter, List<Component> components, TooltipFlag flag) {
         if(Screen.hasShiftDown()) {
@@ -270,5 +271,6 @@ public class WheelBlock extends RotatedPillarKineticBlock implements ITE<WheelTi
 
         super.appendHoverText(stack, blockGetter, components, flag);
     }
+     */
 }
 
